@@ -1,0 +1,28 @@
+export default function YouTubeEmbed({
+  videoId,
+  label,
+}: {
+  videoId: string;
+  label?: string;
+}) {
+  return (
+    <div className="my-8">
+      <div
+        className="relative aspect-video w-full rounded-lg overflow-hidden border border-gold/[0.15]"
+      >
+        <iframe
+          src={`https://www.youtube.com/embed/${videoId}`}
+          title={label || "YouTube video"}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="absolute inset-0 w-full h-full"
+        />
+      </div>
+      {label && (
+        <span className="block text-center font-body text-xs font-medium uppercase tracking-[2px] text-text-dim mt-3">
+          {label}
+        </span>
+      )}
+    </div>
+  );
+}

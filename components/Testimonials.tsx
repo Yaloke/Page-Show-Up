@@ -1,13 +1,15 @@
 import SectionTag from "./SectionTag";
 import VideoPlaceholder from "./VideoPlaceholder";
+import YouTubeEmbed from "./YouTubeEmbed";
 
 const testimonials = [
   {
     id: "temoignage-1",
-    name: "Témoignage 1",
-    subtitle: "Professionnel surchargé",
+    name: "Matteo",
+    subtitle: "Athlète NIVEAU INTERNATIONAL Callisthénie",
+    youtubeId: "BAcwfZoitlI",
     quote:
-      "J'ai compris que mon problème n'était pas l'entraînement — c'était tout le reste. En 3 mois, j'ai plus progressé qu'en 2 ans.",
+      "Thomas m'a fait passer d'un athlète qui performe de façon hasardeuse à quelqu'un qui performe quand il le veut, où il le veut. Ce ne sont pas vos programmes ou votre intention — ce sont vos facteurs externes qui déterminent votre capacité à convertir vos efforts et à les exprimer.",
   },
   {
     id: "temoignage-2",
@@ -56,7 +58,11 @@ export default function Testimonials() {
                 background: "linear-gradient(135deg, #111111, #0E0E0E)",
               }}
             >
-              <VideoPlaceholder id={t.id} label="VIDÉO TÉMOIGNAGE" />
+              {t.youtubeId ? (
+                <YouTubeEmbed videoId={t.youtubeId} label="VIDÉO TÉMOIGNAGE" />
+              ) : (
+                <VideoPlaceholder id={t.id} label="VIDÉO TÉMOIGNAGE" />
+              )}
 
               <div className="mt-4">
                 <span className="inline-block font-body text-[11px] font-semibold uppercase tracking-[2px] text-gold mb-3">

@@ -1,5 +1,5 @@
 import SectionTag from "./SectionTag";
-import VideoPlaceholder from "./VideoPlaceholder";
+import YouTubeEmbed from "./YouTubeEmbed";
 import QuoteBlock from "./QuoteBlock";
 
 export default function VideoSection() {
@@ -22,8 +22,8 @@ export default function VideoSection() {
           .
         </p>
 
-        <VideoPlaceholder
-          id="video-presentation"
+        <YouTubeEmbed
+          videoId="BAcwfZoitlI"
           label="VIDÉO DE PRÉSENTATION — 8 MIN"
         />
 
