@@ -22,7 +22,7 @@ const config: Config = {
         text: {
           primary: "#F5F1EB",
           secondary: "#C4BFB6",
-          muted: "#9A958D",
+          muted: "#B0ABA3",
           dim: "#6B665E",
           ghost: "#3A3832",
         },

@@ -9,15 +9,15 @@ const stats = [
 
 export default function Transformation() {
   return (
-    <section className="py-20 px-5">
+    <section className="py-16 sm:py-20 px-6 sm:px-8">
       <div className="max-w-[720px] mx-auto">
         <SectionTag label="MON PARCOURS" />
 
-        <h2 className="font-display text-3xl sm:text-4xl font-semibold text-gold-light leading-tight mt-2 mb-6">
+        <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-semibold text-gold-light leading-tight mt-2 mb-6">
           De 64kg à +80kg. Chez moi. Au poids du corps.
         </h2>
 
-        <div className="font-body text-[15px] leading-[1.85] text-text-muted space-y-5 mb-10">
+        <div className="font-body text-[15px] sm:text-base leading-[1.8] text-text-muted space-y-5 mb-10">
           <p>
             Pendant 5 ans, je me suis entraîné sans salle, sans matériel, sans
             coach. J&apos;ai grandi dans un petit village. J&apos;étais le mec
@@ -59,13 +59,13 @@ export default function Transformation() {
         </div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-[2px] bg-bg-elevated rounded-lg overflow-hidden mb-10">
+        <div className="grid grid-cols-2 gap-[2px] bg-bg-elevated rounded-lg overflow-hidden mb-10">
           {stats.map((stat) => (
             <div
               key={stat.label}
-              className="bg-bg-primary p-8 text-center flex flex-col items-center justify-center"
+              className="bg-bg-primary p-5 sm:p-8 text-center flex flex-col items-center justify-center"
             >
-              <span className="font-display text-4xl font-semibold text-gold">
+              <span className="font-display text-3xl sm:text-4xl font-semibold text-gold">
                 {stat.value}
               </span>
               <span className="font-body text-xs uppercase tracking-[2px] text-text-dim mt-2">
@@ -75,7 +75,7 @@ export default function Transformation() {
           ))}
         </div>
 
-        <p className="font-body text-[15px] leading-[1.85] text-text-muted">
+        <p className="font-body text-[15px] sm:text-base leading-[1.8] text-text-muted">
           Ce que je t&apos;enseigne, c&apos;est exactement ce système. Pas une
           méthode copiée d&apos;internet — un cadre construit sur{" "}
           <strong className="text-gold font-medium">

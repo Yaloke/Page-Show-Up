@@ -44,15 +44,15 @@ function CheckIcon() {
 
 export default function Expectations() {
   return (
-    <section className="py-20 px-5">
+    <section className="py-16 sm:py-20 px-6 sm:px-8">
       <div className="max-w-[720px] mx-auto">
         <SectionTag label="AVANT L'APPEL" />
 
-        <h2 className="font-display text-3xl sm:text-4xl font-semibold text-gold-light leading-tight mt-2 mb-6">
+        <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-semibold text-gold-light leading-tight mt-2 mb-6">
           Ce qu&apos;on attend de toi.
         </h2>
 
-        <p className="font-body text-[15px] leading-[1.85] text-text-muted mb-10">
+        <p className="font-body text-[15px] sm:text-base leading-[1.8] text-text-muted mb-10">
           Cet appel est un échange, pas un pitch. Pour qu&apos;il soit utile —
           pour toi comme pour moi — voici ce que je te demande :
         </p>
@@ -62,7 +62,7 @@ export default function Expectations() {
           {expectations.map((item, i) => (
             <div key={i} className="flex gap-4">
               <CheckIcon />
-              <p className="font-body text-[15px] leading-[1.85] text-text-muted">
+              <p className="font-body text-[15px] sm:text-base leading-[1.8] text-text-muted">
                 <strong className="text-gold-light font-semibold">
                   {item.bold}
                 </strong>{" "}

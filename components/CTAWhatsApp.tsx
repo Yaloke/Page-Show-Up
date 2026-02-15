@@ -2,7 +2,7 @@ import SectionTag from "./SectionTag";
 
 export default function CTAWhatsApp() {
   return (
-    <section className="relative py-24 px-5 overflow-hidden">
+    <section className="relative py-16 sm:py-24 px-6 sm:px-8 overflow-hidden">
       {/* Radial gold glow */}
       <div
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] pointer-events-none"
@@ -15,11 +15,11 @@ export default function CTAWhatsApp() {
       <div className="relative z-10 max-w-[720px] mx-auto text-center">
         <SectionTag label="ÉTAPE 2 — CONFIRME TON APPEL" />
 
-        <h2 className="font-display text-3xl sm:text-4xl font-semibold text-gold-light leading-tight mt-2 mb-6">
+        <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-semibold text-gold-light leading-tight mt-2 mb-6">
           Envoie-moi un message pour confirmer.
         </h2>
 
-        <p className="font-body text-[15px] leading-[1.85] text-text-muted mb-10 max-w-[520px] mx-auto">
+        <p className="font-body text-[15px] sm:text-base leading-[1.8] text-text-muted mb-10 max-w-[520px] mx-auto">
           Clique sur le bouton ci-dessous pour m&apos;envoyer un message sur
           WhatsApp. C&apos;est la dernière étape pour valider ton appel.
         </p>
@@ -29,7 +29,7 @@ export default function CTAWhatsApp() {
           href="https://wa.me/message/JSAXPWHVF2HBA1"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#22c55e] text-white font-body font-semibold text-base py-[18px] px-10 rounded-full transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-green-500/25"
+          className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#22c55e] text-white font-body font-semibold text-sm sm:text-base py-4 sm:py-[18px] px-7 sm:px-10 rounded-full transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-green-500/25"
         >
           {/* WhatsApp SVG icon */}
           <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">

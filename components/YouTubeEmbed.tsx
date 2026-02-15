@@ -11,7 +11,7 @@ export default function YouTubeEmbed({
     <div className="my-8">
       <div
         className={`relative w-full rounded-lg overflow-hidden border border-gold/[0.15] ${
-          isShort ? "aspect-[9/16] max-w-[360px] mx-auto" : "aspect-video"
+          isShort ? "aspect-[9/16] max-w-[280px] sm:max-w-[320px] md:max-w-[360px] mx-auto" : "aspect-video"
         }`}
       >
         <iframe

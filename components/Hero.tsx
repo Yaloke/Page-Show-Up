@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative min-h-screen min-h-[100dvh] flex items-center justify-center px-5 py-20 overflow-hidden">
+    <section className="relative min-h-screen min-h-[100dvh] flex items-center justify-center px-6 sm:px-8 py-20 overflow-hidden">
       {/* Subtle radial gold glow */}
       <div
         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] pointer-events-none"
@@ -12,7 +12,7 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-[720px] w-full text-center">
         {/* Title */}
-        <h1 className="font-display text-4xl sm:text-5xl md:text-[48px] font-semibold leading-[1.25] text-text-primary animate-fade-in-up">
+        <h1 className="font-display text-[28px] sm:text-5xl md:text-[48px] font-semibold leading-[1.3] sm:leading-[1.25] text-text-primary animate-fade-in-up">
           Tu viens de réserver ton appel.
           <br />
           Avant qu&apos;on se parle, lis ça.
@@ -22,7 +22,7 @@ export default function Hero() {
         <div className="w-10 h-[2px] bg-gold mx-auto mt-10 mb-10 animate-fade-in-up delay-200" />
 
         {/* Subtitle */}
-        <p className="font-body text-lg sm:text-xl leading-relaxed text-text-secondary max-w-[600px] mx-auto animate-fade-in-up delay-500">
+        <p className="font-body text-base sm:text-lg md:text-xl leading-relaxed text-text-secondary max-w-[600px] mx-auto animate-fade-in-up delay-500">
           95% des sportifs cherchent un meilleur programme.
           <br className="hidden sm:block" />
           Le vrai problème, c&apos;est{" "}
@@ -32,7 +32,7 @@ export default function Hero() {
           — sommeil, nutrition, récupération, mindset.
         </p>
 
-        <p className="font-body text-lg sm:text-xl leading-relaxed text-text-secondary mt-6 animate-fade-in-up delay-800">
+        <p className="font-body text-base sm:text-lg md:text-xl leading-relaxed text-text-secondary mt-6 animate-fade-in-up delay-800">
           Cet appel est le point de départ pour corriger ça.
         </p>
 

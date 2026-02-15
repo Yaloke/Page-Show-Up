@@ -30,15 +30,15 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-24 px-5">
+    <section className="py-16 sm:py-24 px-6 sm:px-8">
       <div className="max-w-[720px] mx-auto">
         <SectionTag label="LEURS RÉSULTATS" />
 
-        <h2 className="font-display text-3xl sm:text-4xl font-semibold text-gold-light leading-tight mt-2 mb-6">
+        <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-semibold text-gold-light leading-tight mt-2 mb-6">
           Ils ont arrêté de chercher le programme parfait.
         </h2>
 
-        <p className="font-body text-[15px] leading-[1.85] text-text-muted mb-12">
+        <p className="font-body text-[15px] sm:text-base leading-[1.8] text-text-muted mb-10 sm:mb-12">
           Ces personnes avaient le même profil que toi : disciplinées,
           régulières, mais bloquées. Le déclic n&apos;a pas été un nouveau
           programme — c&apos;est quand ils ont compris ce qu&apos;ils ignoraient
@@ -64,10 +64,10 @@ export default function Testimonials() {
                 <span className="inline-block font-body text-[11px] font-semibold uppercase tracking-[2px] text-gold mb-2">
                   VIDÉO TÉMOIGNAGE
                 </span>
-                <h3 className="font-display text-xl font-medium text-text-primary">
+                <h3 className="font-display text-lg sm:text-xl font-medium text-text-primary">
                   {t.name}
                 </h3>
-                <p className="font-body text-sm text-text-dim mt-1">
+                <p className="font-body text-xs sm:text-sm text-text-dim mt-1">
                   {t.subtitle}
                 </p>
               </div>
@@ -76,7 +76,7 @@ export default function Testimonials() {
               <YouTubeEmbed videoId={t.youtubeId} isShort />
 
               {/* Quote */}
-              <p className="font-body text-[15px] italic text-text-muted mt-5 leading-relaxed">
+              <p className="font-body text-sm sm:text-[15px] italic text-text-muted mt-5 leading-relaxed">
                 &ldquo;{t.quote}&rdquo;
               </p>
             </div>
