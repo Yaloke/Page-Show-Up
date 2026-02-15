@@ -44,7 +44,7 @@ export default function Transformation() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/transformation-1.jpg"
-              alt="Transformation physique — Avant"
+              alt="Thomas — Point de départ"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
@@ -52,7 +52,7 @@ export default function Transformation() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/transformation-2.jpg"
-              alt="Transformation physique — Après"
+              alt="Thomas — Aujourd'hui"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>

@@ -35,32 +35,32 @@ export default function Hero() {
         <p className="font-body text-base sm:text-lg md:text-xl leading-relaxed text-text-secondary mt-6 animate-fade-in-up delay-800">
           Cet appel est le point de départ pour corriger ça.
         </p>
-
-        {/* Scroll indicator */}
-        <a
-          href="#etape-1"
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-float delay-1200 cursor-pointer no-underline"
-        >
-          <span className="font-body text-xs uppercase tracking-[2px] text-text-dim">
-            Descends
-          </span>
-          <svg
-            width="16"
-            height="24"
-            viewBox="0 0 16 24"
-            fill="none"
-            className="text-text-dim"
-          >
-            <path
-              d="M8 0V20M8 20L1 13M8 20L15 13"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </a>
       </div>
+
+      {/* Scroll indicator — positioned relative to the full-height section */}
+      <a
+        href="#etape-1"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 animate-float delay-1200 cursor-pointer no-underline"
+      >
+        <span className="font-body text-xs uppercase tracking-[2px] text-text-dim">
+          Descends
+        </span>
+        <svg
+          width="16"
+          height="24"
+          viewBox="0 0 16 24"
+          fill="none"
+          className="text-text-dim"
+        >
+          <path
+            d="M8 0V20M8 20L1 13M8 20L15 13"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </a>
     </section>
   );
 }
