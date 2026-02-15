@@ -4,7 +4,7 @@ import QuoteBlock from "./QuoteBlock";
 
 export default function VideoSection() {
   return (
-    <section className="py-20 px-5">
+    <section id="etape-1" className="py-20 px-5 scroll-mt-4">
       <div className="max-w-[720px] mx-auto">
         <SectionTag label="ÉTAPE 1 — REGARDE CETTE VIDÉO" />
 
@@ -22,10 +22,7 @@ export default function VideoSection() {
           .
         </p>
 
-        <YouTubeEmbed
-          videoId="BAcwfZoitlI"
-          label="VIDÉO DE PRÉSENTATION — 8 MIN"
-        />
+        <YouTubeEmbed videoId="BAcwfZoitlI" />
 
         <QuoteBlock>
           &ldquo;80% de tes résultats viennent de ton mode de vie — sommeil,

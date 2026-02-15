@@ -37,7 +37,10 @@ export default function Hero() {
         </p>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-float delay-1200">
+        <a
+          href="#etape-1"
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-float delay-1200 cursor-pointer no-underline"
+        >
           <span className="font-body text-xs uppercase tracking-[2px] text-text-dim">
             Descends
           </span>
@@ -56,7 +59,7 @@ export default function Hero() {
               strokeLinejoin="round"
             />
           </svg>
-        </div>
+        </a>
       </div>
     </section>
   );

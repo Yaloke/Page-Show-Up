@@ -26,7 +26,7 @@ export default function CTAWhatsApp() {
 
         {/* WhatsApp Button */}
         <a
-          href="https://wa.me/33XXXXXXXXX?text=Salut%20Thomas%2C%20je%20viens%20de%20r%C3%A9server%20mon%20appel.%20Je%20confirme%20ma%20pr%C3%A9sence."
+          href="https://wa.me/message/JSAXPWHVF2HBA1"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#22c55e] text-white font-body font-semibold text-base py-[18px] px-10 rounded-full transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-green-500/25"

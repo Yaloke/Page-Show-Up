@@ -1,14 +1,18 @@
 export default function YouTubeEmbed({
   videoId,
   label,
+  isShort = false,
 }: {
   videoId: string;
   label?: string;
+  isShort?: boolean;
 }) {
   return (
     <div className="my-8">
       <div
-        className="relative aspect-video w-full rounded-lg overflow-hidden border border-gold/[0.15]"
+        className={`relative w-full rounded-lg overflow-hidden border border-gold/[0.15] ${
+          isShort ? "aspect-[9/16] max-w-[360px] mx-auto" : "aspect-video"
+        }`}
       >
         <iframe
           src={`https://www.youtube.com/embed/${videoId}`}

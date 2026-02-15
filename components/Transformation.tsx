@@ -38,6 +38,26 @@ export default function Transformation() {
           </p>
         </div>
 
+        {/* Transformation Photos */}
+        <div className="grid grid-cols-2 gap-3 mb-10">
+          <div className="relative aspect-[3/4] rounded-lg overflow-hidden border border-gold/[0.1]">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/transformation-1.jpg"
+              alt="Transformation physique — Avant"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <div className="relative aspect-[3/4] rounded-lg overflow-hidden border border-gold/[0.1]">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/transformation-2.jpg"
+              alt="Transformation physique — Après"
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+        </div>
+
         {/* Stats Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-[2px] bg-bg-elevated rounded-lg overflow-hidden mb-10">
           {stats.map((stat) => (
