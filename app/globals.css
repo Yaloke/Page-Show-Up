@@ -34,3 +34,9 @@ body {
 .delay-1200 {
   animation-delay: 1.2s;
 }
+
+/* Hide scrollbar for carousel */
+.scroll-smooth::-webkit-scrollbar,
+[style*="scrollbar-width"]::-webkit-scrollbar {
+  display: none;
+}
