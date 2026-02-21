@@ -18,6 +18,10 @@ const expectations = [
     bold: "Sois prêt à remettre en question ce que tu crois savoir",
     text: "sur la nutrition, la récupération et le sommeil. Si tu veux qu'on te dise ce que tu veux entendre, on n'est pas le bon fit.",
   },
+  {
+    bold: "Sois prêt à investir si ça fait sens.",
+    text: "Cet appel n'est pas une consultation gratuite. Si ce qu'on construit ensemble te parle, sois dans les dispositions pour passer à l'action.",
+  },
 ];
 
 function CheckIcon() {

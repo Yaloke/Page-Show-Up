@@ -5,6 +5,7 @@ import Transformation from "@/components/Transformation";
 import Testimonials from "@/components/Testimonials";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 import Expectations from "@/components/Expectations";
+import PreQualification from "@/components/PreQualification";
 import CTAWhatsApp from "@/components/CTAWhatsApp";
 import Footer from "@/components/Footer";
 
@@ -21,6 +22,8 @@ export default function Home() {
       <TestimonialCarousel />
       <Divider />
       <Expectations />
+      <Divider />
+      <PreQualification />
       <Divider />
       <CTAWhatsApp />
       <Footer />
