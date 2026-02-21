@@ -5,7 +5,7 @@ const qualifications = [
   {
     number: "01",
     title: "Motivation",
-    text: "Tu veux des résultats concrets et tu es prêt à agir — pas juste « comprendre un peu mieux » sans rien changer.",
+    text: "Tu veux des résultats concrets et tu es prêt à agir, pas juste « comprendre un peu mieux » sans rien changer.",
   },
   {
     number: "02",
@@ -15,7 +15,7 @@ const qualifications = [
   {
     number: "03",
     title: "Engagement",
-    text: "Si cet appel te montre exactement ce dont tu as besoin, tu es en position de t'investir — en temps, en énergie, et financièrement — pour passer à l'action.",
+    text: "Si cet appel te montre exactement ce dont tu as besoin, tu es en position de t'investir en temps, en énergie, et financièrement pour passer à l'action.",
   },
 ];
 
@@ -61,7 +61,7 @@ export default function PreQualification() {
 
         <QuoteBlock>
           &ldquo;Si tu coches ces 3 cases, on est faits pour travailler
-          ensemble. Sinon, c&apos;est pas grave — mais cet appel n&apos;est pas
+          ensemble. Sinon, c&apos;est pas grave, mais cet appel n&apos;est pas
           le bon moment.&rdquo;
         </QuoteBlock>
       </div>

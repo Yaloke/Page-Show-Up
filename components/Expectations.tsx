@@ -19,8 +19,8 @@ const expectations = [
     text: "sur la nutrition, la récupération et le sommeil. Si tu veux qu'on te dise ce que tu veux entendre, on n'est pas le bon fit.",
   },
   {
-    bold: "Sois prêt à investir si ça fait sens.",
-    text: "Cet appel n'est pas une consultation gratuite. Si ce qu'on construit ensemble te parle, sois dans les dispositions pour passer à l'action.",
+    bold: "Sois prêt à t'investir si ça fait sens.",
+    text: "Cette consultation est gratuite. Mais si tu es prêt à t'investir en temps, en énergie et financièrement : si et seulement si je suis absolument convaincu que je peux t'accepter dans une de mes solutions, on verra à quoi pourrait ressembler la manière dont je travaille. Si je sens que ce n'est pas le cas, je te le dirai en toute transparence qu'on ne travaillera pas ensemble.",
   },
 ];
 
