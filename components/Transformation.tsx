@@ -22,7 +22,7 @@ export default function Transformation() {
             Pendant 5 ans, je me suis entraîné sans salle, sans matériel, sans
             coach. J&apos;ai grandi dans un petit village. J&apos;étais le mec
             maigre qu&apos;on ne regardait pas. Ce qui a tout changé, ce
-            n&apos;est pas un programme miracle — c&apos;est le jour où
+            n&apos;est pas un programme miracle, c&apos;est le jour où
             j&apos;ai compris que{" "}
             <strong className="text-gold font-medium">
               l&apos;entraînement n&apos;est que la partie visible
@@ -32,7 +32,7 @@ export default function Transformation() {
 
           <p>
             Sommeil, nutrition ancestrale, récupération, environnement, mindset
-            — quand j&apos;ai optimisé ces piliers, les résultats ont explosé.
+            quand j&apos;ai optimisé ces piliers, les résultats ont explosé.
             Et j&apos;ai pris le contrôle total de ma transformation. Acteur de
             ma vie. Totalement autonome.
           </p>
@@ -44,7 +44,7 @@ export default function Transformation() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/transformation-1.jpg"
-              alt="Thomas — Point de départ"
+              alt="Thomas, point de départ"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
@@ -52,7 +52,7 @@ export default function Transformation() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/transformation-2.jpg"
-              alt="Thomas — Aujourd'hui"
+              alt="Thomas, aujourd'hui"
               className="absolute inset-0 w-full h-full object-cover"
             />
           </div>
@@ -77,7 +77,7 @@ export default function Transformation() {
 
         <p className="font-body text-[15px] sm:text-base leading-[1.8] text-text-muted">
           Ce que je t&apos;enseigne, c&apos;est exactement ce système. Pas une
-          méthode copiée d&apos;internet — un cadre construit sur{" "}
+          méthode copiée d&apos;internet, un cadre construit sur{" "}
           <strong className="text-gold font-medium">
             mon expérience réelle
           </strong>

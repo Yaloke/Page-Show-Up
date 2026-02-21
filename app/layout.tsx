@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "TELOS — Ton appel est réservé",
+  title: "TELOS | Ton appel est réservé",
   description:
     "Prépare-toi pour ton appel avec Thomas. Optimise ton mode de vie pour débloquer tes performances.",
   robots: "noindex, nofollow",

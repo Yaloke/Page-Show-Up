@@ -13,7 +13,7 @@ export default function CTAWhatsApp() {
       />
 
       <div className="relative z-10 max-w-[720px] mx-auto text-center">
-        <SectionTag label="ÉTAPE 2 — CONFIRME TON APPEL" />
+        <SectionTag label="ÉTAPE 2 : CONFIRME TON APPEL" />
 
         <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-semibold text-gold-light leading-tight mt-2 mb-6">
           Envoie-moi un message pour confirmer.

@@ -29,7 +29,7 @@ export default function Hero() {
           <span className="text-gold-light font-semibold">
             tout ce qu&apos;ils ne voient pas
           </span>{" "}
-          — sommeil, nutrition, récupération, mindset.
+          : sommeil, nutrition, récupération, mindset.
         </p>
 
         <p className="font-body text-base sm:text-lg md:text-xl leading-relaxed text-text-secondary mt-6 animate-fade-in-up delay-800">
@@ -37,7 +37,7 @@ export default function Hero() {
         </p>
       </div>
 
-      {/* Scroll indicator — positioned relative to the full-height section */}
+      {/* Scroll indicator */}
       <a
         href="#etape-1"
         className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 animate-float delay-1200 cursor-pointer no-underline"

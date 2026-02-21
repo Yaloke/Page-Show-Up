@@ -8,7 +8,7 @@ const testimonials = [
     subtitle: "Athlète NIVEAU INTERNATIONAL Callisthénie",
     youtubeId: "hSJcbGV-K8w",
     quote:
-      "Thomas m'a fait passer d'un athlète qui performe de façon hasardeuse à quelqu'un qui performe quand il le veut, où il le veut. Ce ne sont pas vos programmes ou votre intention — ce sont vos facteurs externes qui déterminent votre capacité à convertir vos efforts et à les exprimer.",
+      "Thomas m'a fait passer d'un athlète qui performe de façon hasardeuse à quelqu'un qui performe quand il le veut, où il le veut. Ce ne sont pas vos programmes ou votre intention, ce sont vos facteurs externes qui déterminent votre capacité à convertir vos efforts et à les exprimer.",
   },
   {
     id: "temoignage-2",
@@ -16,7 +16,7 @@ const testimonials = [
     subtitle: "Athlète CONFIRMÉ de Callisthénie et entrepreneur À SUCCÈS",
     youtubeId: "fkzoz2CoYrE",
     quote:
-      "Après 5 ans de muscu classique, tout a changé. J'ai retrouvé le plaisir de m'entraîner et cette sensation de me sentir fort. Le coaching ne se limite pas à la callisthénie — sommeil, alimentation, environnement. Thomas a réussi à me recalibrer et je me sens vraiment beaucoup mieux depuis.",
+      "Après 5 ans de muscu classique, tout a changé. J'ai retrouvé le plaisir de m'entraîner et cette sensation de me sentir fort. Le coaching ne se limite pas à la callisthénie : sommeil, alimentation, environnement. Thomas a réussi à me recalibrer et je me sens vraiment beaucoup mieux depuis.",
   },
   {
     id: "temoignage-3",
@@ -41,7 +41,7 @@ export default function Testimonials() {
         <p className="font-body text-[15px] sm:text-base leading-[1.8] text-text-muted mb-10 sm:mb-12">
           Ces personnes avaient le même profil que toi : disciplinées,
           régulières, mais bloquées. Le déclic n&apos;a pas été un nouveau
-          programme — c&apos;est quand ils ont compris ce qu&apos;ils ignoraient
+          programme, c&apos;est quand ils ont compris ce qu&apos;ils ignoraient
           sur{" "}
           <strong className="text-gold font-medium">
             leur sommeil, leur nutrition et leur récupération
