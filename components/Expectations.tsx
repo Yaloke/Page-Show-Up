@@ -20,7 +20,7 @@ const expectations = [
   },
   {
     bold: "Sois prêt à t'investir si ça fait sens.",
-    text: "Cette consultation est gratuite. Mais si tu es prêt à t'investir en temps, en énergie et financièrement : si et seulement si je suis absolument convaincu que je peux t'accepter dans une de mes solutions, on verra à quoi pourrait ressembler la manière dont je travaille. Si je sens que ce n'est pas le cas, je te le dirai en toute transparence qu'on ne travaillera pas ensemble.",
+    text: "Si et seulement si je suis absolument convaincu que je peux t'accepter dans une de mes solutions, on verra à quoi pourrait ressembler la manière dont je travaille. Si je sens que ce n'est pas le cas, je te le dirai en toute transparence qu'on ne travaillera pas ensemble.",
   },
 ];
 
@@ -57,8 +57,8 @@ export default function Expectations() {
         </h2>
 
         <p className="font-body text-[15px] sm:text-base leading-[1.8] text-text-muted mb-10">
-          Cet appel est un échange, pas un pitch. Pour qu&apos;il soit utile —
-          pour toi comme pour moi — voici ce que je te demande :
+          Cet appel est un échange, pas un pitch. Pour qu&apos;il soit utile
+          pour toi comme pour moi, voici ce que je te demande :
         </p>
 
         {/* Checklist */}
@@ -79,7 +79,7 @@ export default function Expectations() {
         <QuoteBlock>
           &ldquo;Je ne travaille pas avec tout le monde. Je travaille avec des
           personnes qui veulent comprendre, pas juste suivre.
-          L&apos;objectif, c&apos;est ton autonomie — pas ta
+          L&apos;objectif, c&apos;est ton autonomie, pas ta
           dépendance.&rdquo;
         </QuoteBlock>
       </div>
