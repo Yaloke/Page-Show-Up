@@ -1,5 +1,6 @@
 import SectionTag from "./SectionTag";
 import YouTubeEmbed from "./YouTubeEmbed";
+import AudioTestimonial from "./AudioTestimonial";
 
 const testimonials = [
   {
@@ -81,6 +82,14 @@ export default function Testimonials() {
               </p>
             </div>
           ))}
+
+          {/* Audio Testimonial */}
+          <AudioTestimonial
+            name="Kim"
+            subtitle="Sportif DISCIPLINÉ en quête d'un programme STRUCTURÉ"
+            audioSrc="/audio/temoignage-kim.opus"
+            quote="Je suis passé de quelqu'un qui s'entraînait sans vraiment de plan, à quelqu'un qui peut s'entraîner maintenant avec un plan clair, pertinent, évolutif, productif. Ça, en deux mois."
+          />
         </div>
       </div>
     </section>
