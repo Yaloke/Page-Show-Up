@@ -5,7 +5,7 @@ const qualifications = [
   {
     number: "01",
     title: "Motivation",
-    text: "Tu veux des résultats concrets et tu es prêt à agir, pas juste « comprendre un peu mieux » sans rien changer.",
+    text: "Tu veux des résultats concrets et tu es prêt à agir.",
   },
   {
     number: "02",

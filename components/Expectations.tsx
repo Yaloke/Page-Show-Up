@@ -1,5 +1,4 @@
 import SectionTag from "./SectionTag";
-import QuoteBlock from "./QuoteBlock";
 
 const expectations = [
   {
@@ -8,7 +7,7 @@ const expectations = [
   },
   {
     bold: "Sois à l'heure.",
-    text: "Pas 5 minutes après. Pas « j'avais un truc ». À l'heure.",
+    text: "",
   },
   {
     bold: "Sois honnête sur ta situation.",
@@ -16,7 +15,7 @@ const expectations = [
   },
   {
     bold: "Sois prêt à remettre en question ce que tu crois savoir",
-    text: "sur la nutrition, la récupération et le sommeil. Si tu veux qu'on te dise ce que tu veux entendre, on n'est pas le bon fit.",
+    text: "sur la nutrition, la récupération et le sommeil.",
   },
   {
     bold: "Sois prêt à t'investir si ça fait sens.",
@@ -53,7 +52,7 @@ export default function Expectations() {
         <SectionTag label="AVANT L'APPEL" />
 
         <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-semibold text-gold-light leading-tight mt-2 mb-6">
-          Ce qu&apos;on attend de toi.
+          Ce que j&apos;attends de toi.
         </h2>
 
         <p className="font-body text-[15px] sm:text-base leading-[1.8] text-text-muted mb-10">
@@ -76,12 +75,6 @@ export default function Expectations() {
           ))}
         </div>
 
-        <QuoteBlock>
-          &ldquo;Je ne travaille pas avec tout le monde. Je travaille avec des
-          personnes qui veulent comprendre, pas juste suivre.
-          L&apos;objectif, c&apos;est ton autonomie, pas ta
-          dépendance.&rdquo;
-        </QuoteBlock>
       </div>
     </section>
   );
